@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ssh-client-git:
+    image: volkovpishet/ssh-client-git:${TAG}
+    build:
+      context: .
+    tty: true
